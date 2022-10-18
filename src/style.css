@@ -1,34 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700&display=swap');
 
-/* @media (max-width: 692px){
-    body{
-        background-color: blue;
-    }
-    div.main-wrapper{
-        
-        width: 100%;
-    }
-    section#contato.main-wrapper{
-       
-        width: 100%;
-    }
-    div.nav-wrapper{
-        width: 100%;
-    }
-    footer{
-        width: 100%;
-    }
-    
-    
-} */
 *{
      /* border: 2px solid red;     */
     font-family: 'Inter', sans-serif;
     color: var(--corPrimaria);
-    margin: 0%;
     
-    
+    padding:0px;
+    margin:0px;
+     
 }
+
 p , li{
     font-size: 1vw;
 }
@@ -57,7 +38,6 @@ footer{
     justify-content: center;
     padding: 2% 0%;
     margin-bottom: 0px;
-    z-index: 1000;
 }
 
 
@@ -77,7 +57,6 @@ footer{
     padding: 2% 10%;
     min-height: 20.55vh;
     max-height: 600.80vh;
-    /* justify-content: space-between; */
     align-items: center;
 
 }
@@ -132,12 +111,17 @@ img#imagem1{
 
 }
 
+div.textoSlogan > div > h1 , spam{
+    font-size: 3vw;
+}
+
+
 .main-wrapper > .textoSlogan > div > h1 > spam{
     color: var(--corSecundaria);
 } 
 
 div.main-wrapper#sobre{
-    /* align-items: center; */
+    
     justify-content: space-between;
     
     
@@ -147,7 +131,7 @@ div.main-wrapper#sobre{
     font-weight: var(--regular);
 
 }
-div#sobre.main-wrapper > div > div > h1{
+section#sobre.main-wrapper > div > div > h1{
     margin-left: 3vw;
     padding-bottom: 1vw;;
 }
@@ -163,14 +147,8 @@ div.textoSobre > p{
 }
 
 
-
-section#trabalho.main-wrapper{
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
 section#trabalho.main-wrapper > div{
-    padding-left: 5%;
+    padding-left: 10%;
 }
 
 .conteudoIconFooter{
