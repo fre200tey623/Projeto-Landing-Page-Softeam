@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700&display=swap');
+
+/* @media (max-width: 692px){
+    body{
+        background-color: blue;
+    }
+    div.main-wrapper{
+        
+        width: 100%;
+    }
+    section#contato.main-wrapper{
+       
+        width: 100%;
+    }
+    div.nav-wrapper{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+    
+    
+} */
+*{
+     /* border: 2px solid red;     */
+    font-family: 'Inter', sans-serif;
+    color: var(--corPrimaria);
+    margin: 0px;
+    
+    
+}
+p , li{
+    font-size: 1vw;
+}
+
+
+
+ul{
+    padding-left: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+h1{
+    font-size: 1.28vw;
+    padding-bottom: 5px;
+}
+
+footer{
+    background-color: var(--corTerciaria);
+    font-weight: var(--regular);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 0%;
+  
+}
+
+
+
+:root{
+    --thinSize: 100;
+    --lightSize: 300;
+    --regular: 400;
+    --bold: 700;
+    --corPrimaria: #263238;
+    --corSecundaria: #E07A5F;
+    --corTerciaria: #D6D6D6;
+}
+.main-wrapper{
+    
+    display:flex;
+    padding: 2% 10%;
+    min-height: 20.55vh;
+    max-height: 600.80vh;
+    /* justify-content: space-between; */
+    align-items: center;
+
+}
+
+section#contato.main-wrapper{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.nav-wrapper > div > h1{
+    font-style: var(--bold);
+    font-size: 2.15vw; 
+}
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2.09vw;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+
+img#imagem1{
+
+    width: 35vw;
+
+}
+
+
+.links-nav{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    max-width: 700px;
+    justify-content: space-between;
+    
+}
+
+.links-nav > a{
+    text-decoration: none;
+    font-size: 1.23vw;
+    
+}
+
+.links-nav > a:hover{
+    color: var(--corSecundaria);
+    
+}
+
+.textoSlogan {
+    display: flex;
+    align-items: center;
+
+}
+
+.main-wrapper > .textoSlogan > div > h1 > spam{
+    color: var(--corSecundaria);
+} 
+
+div.main-wrapper#sobre{
+    /* align-items: center; */
+    justify-content: space-between;
+    
+    
+} 
+.main-wrapper > .textoSobre > p{
+    color: var(--corPrimaria);
+    font-weight: var(--regular);
+
+}
+div#sobre.main-wrapper > div > div > h1{
+    margin-left: 3vw;
+    padding-bottom: 1vw;;
+}
+
+.textoSobre{
+    margin-left: 3vw;
+}
+
+
+
+div.textoSobre > p{
+    padding-bottom: 0.5vw;
+}
+
+
+
+section#trabalho.main-wrapper{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+section#trabalho.main-wrapper > div{
+    padding-left: 5%;
+}
+
+.conteudoIconFooter{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer > div > p{
+    padding-bottom: 0.5vw;
+}
+
+.imagem{
+    width: 30vw;
+}
