@@ -25,7 +25,7 @@
      /* border: 2px solid red;     */
     font-family: 'Inter', sans-serif;
     color: var(--corPrimaria);
-    margin: 0px;
+    margin: 0%;
     
     
 }
@@ -36,7 +36,7 @@ p , li{
 
 
 ul{
-    padding-left: 0px;
+    padding-left: 0%;
 }
 
 html{
