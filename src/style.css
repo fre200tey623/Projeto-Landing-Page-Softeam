@@ -57,7 +57,7 @@ footer{
     justify-content: center;
     padding: 2% 0%;
     margin-bottom: 0px;
-  
+    z-index: 1000;
 }
 
 
